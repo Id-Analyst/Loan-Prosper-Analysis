@@ -6,21 +6,21 @@ Exploratory and Explanatory Analysis of a Sample Dataset from **Loan Prosper** w
 
 The main data set contain 113937 row and 81 columns. All the columns ain't essential for this analysis, for that reason I worked with 113937 row and 15 column. The details of the columns are below:
 
-* **ListingNumber**: The number that uniquely identifies the listing to the public as displayed on the website.
-* **Term**: The length of the loan expressed in months.
-* **LoanStatus**: The current status of the loan: <b> Cancelled, Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
-* **BorrowerAPR**: The Borrower's Annual Percentage Rate (APR) for the loan.
-* **BorrowerRate**: The Borrower's interest rate for this loan.
-ProsperRating: The Prosper Rating assigned at the time the listing was created between AA - HR. Applicable for loans originated after July 2009.
-ProsperScore: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score. Applicable for loans originated after July 2009.
-BorrowerState: The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.
-Occupation: The Occupation selected by the Borrower at the time they created the listing.
-EmploymentStatus:The employment status of the borrower at the time they posted the listing.
-IsBorrowerHomeOwner: A Borrower will be classified as a home-owner if they have a mortgage on their credit profile or provide documentation confirming they are a home-owner.
-IncomeRange: The income range of the borrower at the time the listing was created.
-LoanOriginalAmount: The origination amount of the loan.
-LoanOriginationDate: The date the loan was originated.
-Listing_Category: The category of the listing that the borrower selected when posting their listing
+* ListingNumber: The number that uniquely identifies the listing to the public as displayed on the website.
+* Term: The length of the loan expressed in months.
+* LoanStatus: The current status of the loan: <b> Cancelled, Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
+* BorrowerAPR: The Borrower's Annual Percentage Rate (APR) for the loan.
+* BorrowerRate: The Borrower's interest rate for this loan.
+* ProsperRating: The Prosper Rating assigned at the time the listing was created between AA - HR. Applicable for loans originated after July 2009.
+* ProsperScore: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score. Applicable for loans originated after July 2009.
+* BorrowerState: The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.
+* Occupation: The Occupation selected by the Borrower at the time they created the listing.
+* EmploymentStatus:The employment status of the borrower at the time they posted the listing.
+* IsBorrowerHomeOwner: A Borrower will be classified as a home-owner if they have a mortgage on their credit profile or provide documentation confirming they are a home-owner.
+* IncomeRange: The income range of the borrower at the time the listing was created.
+* LoanOriginalAmount: The origination amount of the loan.
+* LoanOriginationDate: The date the loan was originated.
+* Listing_Category: The category of the listing that the borrower selected when posting their listing
 
 
 ## Summary of Findings
