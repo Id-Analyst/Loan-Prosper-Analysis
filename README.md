@@ -8,10 +8,9 @@ The main data set contain 113937 row and 81 columns. All the columns ain't essen
 
 * **ListingNumber**: The number that uniquely identifies the listing to the public as displayed on the website.
 * **Term**: The length of the loan expressed in months.
-LoanStatus: The current status of the loan: <b> Cancelled, Chargedoff, Completed, Current, Defaulted
-FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
-BorrowerAPR: The Borrower's Annual Percentage Rate (APR) for the loan.
-BorrowerRate: The Borrower's interest rate for this loan.
+* **LoanStatus**: The current status of the loan: <b> Cancelled, Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket.
+* **BorrowerAPR**: The Borrower's Annual Percentage Rate (APR) for the loan.
+* **BorrowerRate**: The Borrower's interest rate for this loan.
 ProsperRating: The Prosper Rating assigned at the time the listing was created between AA - HR. Applicable for loans originated after July 2009.
 ProsperScore: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score. Applicable for loans originated after July 2009.
 BorrowerState: The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.
